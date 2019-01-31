@@ -25,7 +25,7 @@ public class CardTrick {
 
         //insert code to ask the user for Card value and suit, create their card
         Scanner cardNumber = new Scanner(System.in);
-        System.out.println("Choose your card's number?");
+        System.out.println("Choose your card's number?, between 1 and 7");
         int number = cardNumber.nextInt();
 
         Scanner cardSuit = new Scanner(System.in);

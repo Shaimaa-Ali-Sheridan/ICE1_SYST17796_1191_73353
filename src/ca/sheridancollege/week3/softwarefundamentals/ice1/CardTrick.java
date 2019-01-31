@@ -11,6 +11,12 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author dancye
  */
+
+
+/* THIS IS AN IN CLASS ASSIGNMENT FOR PULL AND FETCH THE CARD TRICK
+    @AUTHOR YASH KARKAR
+ *
+ */
 public class CardTrick {
     
     public static void main(String[] args)

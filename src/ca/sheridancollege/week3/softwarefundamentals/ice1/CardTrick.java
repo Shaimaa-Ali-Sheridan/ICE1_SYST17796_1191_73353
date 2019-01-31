@@ -35,7 +35,6 @@ public class CardTrick {
         String suit = cardSuit.nextLine();
         */
         Card luckyCard = new Card();
-            luckycard.set
             luckyCard.setSuit("Hearts");
             luckyCard.setValue(10);
 

@@ -5,6 +5,11 @@
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
+/* THIS IS AN IN CLASS ASSIGNMENT FOR PULL AND FETCH THE CARD TRICK
+    @AUTHOR YASH KARKAR
+ *
+ */
+
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and then asks the user to pick a card and searches the array of cards

@@ -24,6 +24,8 @@ public class CardTrick {
         Random rand = new Random();
 
         //insert code to ask the user for Card value and suit, create their card
+        
+        /*
         Scanner cardNumber = new Scanner(System.in);
         System.out.println("Choose your card's number?, between 1 and 7");
         int number = cardNumber.nextInt();
@@ -31,8 +33,13 @@ public class CardTrick {
         Scanner cardSuit = new Scanner(System.in);
         System.out.println("What is your card's Suit?, case sensitive");
         String suit = cardSuit.nextLine();
+        */
+        Card luckyCard = new Card();
+            luckycard.set
+            luckyCard.setSuit("Hearts");
+            luckyCard.setValue(10);
 
-        System.out.println("Your Card is: " + number + " of " + suit);
+        System.out.println("Your Card is: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
         // and search magicHand here
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
@@ -40,7 +47,7 @@ public class CardTrick {
             c.setValue(rand.nextInt(7));    //c.setValue(insert call to random number generator here)
             c.setSuit(Card.SUITS[rand.nextInt(3)]); //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
             System.out.println(c.getValue() + " of " + c.getSuit());
-            if (number == c.getValue() && suit.equals(c.getSuit())) {
+            if (luckyCard.getValue() == c.getValue() && luckyCard.getSuit().equals(c.getSuit())) {
                 System.out.println("Card Matches");
             } else {
                 System.out.println("Card Doesn't Match");

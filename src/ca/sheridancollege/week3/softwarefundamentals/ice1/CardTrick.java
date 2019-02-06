@@ -11,6 +11,8 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author dancye
  * Date : Jan 30,2019
+ * Modifier: Tamana Seddiqi
+ * Student ID : 991528861
  */
 import java.lang.Math;
 import java.util.Scanner;

@@ -21,6 +21,10 @@ public class CardTrick {
         
         Card[] magicHand = new Card[7];
         Card c = new Card();
+        Card luckyCard = new Card();
+        luckyCard.setvalue(13);
+        luckyCard.setSuit("Hearts");
+        
         for (int i=0; i<magicHand.length; i++)
         {
             //c.setValue(insert call to random number generator here)

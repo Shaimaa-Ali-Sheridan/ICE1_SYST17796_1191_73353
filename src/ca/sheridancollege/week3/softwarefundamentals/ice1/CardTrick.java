@@ -37,6 +37,7 @@ public class CardTrick {
             System.out.println(c.getValue()+ c.getSuit());
         }
         //insert code to ask the user for Card value and suit, create their card
+        /*
         System.out.print("Please enter the number of your choice from 1-13!");
         Scanner input = new Scanner(System.in);
         int userN = input.nextInt();
@@ -54,6 +55,14 @@ public class CardTrick {
             }
             System.out.print("no, the card does not match!");
         //Then report the result here
+        }
+        */
+        for(int i=0; i<magicHand.length; i++ )
+        {
+            if(c.getValue()==luckyCard.getValue() && c.getSuit()== luckyCard.getSuit())
+                System.out.print("Congratualition you won the game!");
+            else
+                System.out.print("Oops, you lost the game!");
         }
     }
     public static String randomString(){

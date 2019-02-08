@@ -20,6 +20,10 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
+            c.setValue(1+(int)(Math.random()*13));
+            c.setSuit(Card.SUITS[(int)(Math.random()*4)]);
+                  magicHand[i]  = c;
+                    
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }

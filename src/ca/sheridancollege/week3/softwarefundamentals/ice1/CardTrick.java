@@ -30,6 +30,7 @@ public class CardTrick {
         // and search magicHand here
         //Then report the result here
       // this are just to change on git hub
+      // this is the final changes 
     }
     
 }

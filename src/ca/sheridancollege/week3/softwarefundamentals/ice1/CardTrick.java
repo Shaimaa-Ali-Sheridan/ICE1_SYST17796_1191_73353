@@ -18,12 +18,9 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
-       System.out.println("Enter your lucky number");
-        Scanner pick = new Scanner(System.in);
-        int num = pick.nextInt();
-        System.out.println("Enter your Suit color");
-        Scanner pi = new Scanner(System.in);
-        String col = pi.nextLine();
+       
+        int num = 8;
+        String col = "Heart";
         int ii;
         int v,hp;
         Card[] magicHand = new Card[7];

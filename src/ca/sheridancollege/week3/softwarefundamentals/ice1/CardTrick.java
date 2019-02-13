@@ -18,7 +18,7 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
-       
+       //this hard code for final value.
         int num = 8;
         String col = "Heart";
         int ii;

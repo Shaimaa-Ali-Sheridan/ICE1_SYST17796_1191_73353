@@ -36,11 +36,10 @@ public class CardTrick {
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
-        Scanner s1= new Scanner(System.in);
-        System.out.print("Enter Your card value ");
-        int a = s1.nextInt();
-        System.out.print("Enter Your Suits (0-3) ");
-        int b= s1.nextInt();
+        
+        int a = 5;
+        
+        int b= 2;
         Card cb=new Card();
        cb.setValue(a);
        cb.setSuit(Card.SUITS[b]);
